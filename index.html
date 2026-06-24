@@ -1154,7 +1154,7 @@ function renderProducts(items, gridId) {
         \${!isAffiliate ? \`<button class="wishlist-btn" onclick="event.stopPropagation();showToast('💛 Saved to wishlist!')" aria-label="Save to wishlist">♡</button>\` : \`<span style="position:absolute;top:0.75rem;right:0.75rem;background:#FF9900;color:white;border-radius:0.4rem;font-size:0.65rem;font-weight:700;padding:0.2rem 0.5rem;letter-spacing:0.04em;">AMAZON</span>\`}
       </div>
       <div class="product-info">
-        <div class="product-category">\${p.category}</div>
+       
         <div class="product-name">\${p.name}</div>
         <div class="product-desc">\${p.desc}</div>
         <div class="product-footer">
@@ -1204,10 +1204,6 @@ const hatsItems = products.filter(p => p.category === 'hats');
 renderProducts(hatsItems, 'hatsGrid');
 const beachItems = products.filter(p => p.category === 'beach');
 renderProducts(beachItems, 'beachGrid');
-
-<body>
-
-
-</section>
-
-
+</script>
+</body>
+</html>
